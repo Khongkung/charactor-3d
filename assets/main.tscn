@@ -1,10 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://b6yd4vw8flm3s"]
+[gd_scene load_steps=9 format=3 uid="uid://b6yd4vw8flm3s"]
 
 [ext_resource type="PackedScene" uid="uid://bpwq8bul684id" path="res://khong_walk.tscn" id="1_db5cl"]
 [ext_resource type="PackedScene" uid="uid://du2ifv5ccq51f" path="res://assets/run.tscn" id="2_06ig3"]
 [ext_resource type="PackedScene" uid="uid://c1otlu18ct51q" path="res://assets/over.tscn" id="3_2d37k"]
 [ext_resource type="PackedScene" uid="uid://cgrhqv0aju141" path="res://assets/StylooClassroomAssetPack GLTF & FBX/StylooClassroomAssetPack GLTF & FBX/walls/Fbx/wall_002.fbx" id="4_ujfqy"]
-[ext_resource type="PackedScene" uid="uid://ca1infmfj0eww" path="res://assets/StylooClassroomAssetPack GLTF & FBX/StylooClassroomAssetPack GLTF & FBX/chemestry lab/FBX/CHEMESTRYtable.fbx" id="5_qdlv5"]
 [ext_resource type="PackedScene" uid="uid://b8ur5wo8x6vqa" path="res://assets/StylooClassroomAssetPack GLTF & FBX/StylooClassroomAssetPack GLTF & FBX/ArtRoom/fbx/painting.fbx" id="6_tkxyu"]
 [ext_resource type="PackedScene" uid="uid://bqorcyconf0p7" path="res://assets/StylooClassroomAssetPack GLTF & FBX/StylooClassroomAssetPack GLTF & FBX/ArtRoom/fbx/table.fbx" id="7_qdlv5"]
 
@@ -20,7 +19,7 @@ material = SubResource("StandardMaterial3D_2d37k")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.6164155, -0.23394108, 0.19005847)
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.57759136, 2.8511987, 11.164753)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.57759136, 2.8511987, 11.225141)
 
 [node name="run" parent="." instance=ExtResource("2_06ig3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.04018879, -0.8307977, 0.34591246)
@@ -69,9 +68,6 @@ transform = Transform3D(5.0839643, 0, 0, 0, 6.057805, 0, 0, 0, 1, 40.30284, 5.18
 
 [node name="wall_011" parent="." instance=ExtResource("4_ujfqy")]
 transform = Transform3D(5.0839643, 0, 0, 0, 6.057805, 0, 0, 0, 1, -41.531334, 5.1839304, -6.362527)
-
-[node name="CHEMESTRYtable" parent="." instance=ExtResource("5_qdlv5")]
-transform = Transform3D(1.4190962, 0, 0, 0, 2.1379664, 0, 0, 0, 1, 10.995559, 0.9662695, -1.656523)
 
 [node name="painting" parent="." instance=ExtResource("6_tkxyu")]
 transform = Transform3D(3.3067899, 0, 0, 0, 4.503619, 0, 0, 0, 1, 3.9426966, 5.3082585, -5.8242416)
